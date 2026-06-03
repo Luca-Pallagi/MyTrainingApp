@@ -35,9 +35,12 @@ nav a:hover {
     grid-template-columns: 30% 30% 30%;
     gap: 2%;
     padding: 2%;
+    justify-content: space-between;
 }
 
 .training-card{
+    background-color: #145f99;
+    color: white;
     overflow: hidden;
     border-radius: 5%;
     border: black solid;
