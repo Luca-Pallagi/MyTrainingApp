@@ -1,10 +1,14 @@
+body{
+    background-color: #035969;
+}
+
 nav{
     width: 100%;
     height:10%;
     position: fixed;
     top: 0;
     left: 0;
-    background-color: #044f85;
+    background-color: #014b61;
 }
 
 nav ul{
@@ -24,4 +28,33 @@ nav a {
 nav a:hover {
     text-decoration: underline;
     color: #4884fa;
+}
+
+#startseite{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    gap: 2%;
+    padding: 2%;
+}
+
+.training-card{
+    overflow: hidden;
+    border-radius: 5%;
+    border: black solid;
+    display: grid;
+    grid-template-rows: 15% 60% 10%;
+}
+
+.training-card:hover{
+    transform: scale(1.1);
+}
+
+.training-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.training-card-content{
+    padding-left: 2%;
 }
